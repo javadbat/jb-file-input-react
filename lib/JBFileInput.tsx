@@ -2,7 +2,7 @@ import React, { forwardRef, useCallback, useEffect, useImperativeHandle, useRef,
 import 'jb-file-input';
 // eslint-disable-next-line no-duplicate-imports
 import { JBFileInputWebComponent } from 'jb-file-input';
-import { useEvent } from '../../custom-hooks/UseEvent';
+import { useEvent } from '../../../common/hooks/use-event';
 
 declare global {
     // eslint-disable-next-line @typescript-eslint/no-namespace
